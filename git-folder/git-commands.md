@@ -20,11 +20,11 @@ this will make directory as a git repo
 ``git add .``
 - to add all the files
 
-
-* .gitignore (git ignore file) *
-- mention all the file names in this file so that the git will not keep track of that files 
-  - ex: *.csv or *.txt
-
+- - - - 
+#### .gitignore (git ignore file) *
+  - mention all the file names in this file so that the git will not keep track of that files 
+    - ex: *.csv or *.txt
+- - - - 
 
 - to check if git is ignoring the file or not
   - do ```git status```
@@ -53,16 +53,18 @@ this will make directory as a git repo
 ```git branch -d 'branchName'```
 - to delete the branch named branchName
 
-## A basic flow :[To fix something or add a feature, take a pull from the main (get latest), then create a new branch, switch to that branch, make changes, commit, push and then delete the branch]
-- Clone a remote repo to local and start working on it:
+- - - - 
+#### A basic flow :[To fix something or add a feature, take a pull from the main (get latest), then create a new branch, switch to that branch, make changes, commit, push and then delete the branch] ####
 
+- - - - 
+- Clone a remote repo to local and start working on it:
 ```git clone 'url of the remote git repo'```
 
 
 ```git push```
 - to push your changes to the remote branch
 
-### the other things, like creating pull request,merging can be done in the github or in your editor (vscode)
+#### the other things, like creating pull request,merging can be done in the github or in your editor (vscode) ####
 
 
 
